@@ -1,0 +1,28 @@
+# Ignore the virtual environment
+bin/
+lib/
+lib64/
+include/
+pyvenv.cfg
+*.egg-info/
+
+# Ignore models and datasets
+models/
+storage/
+datasets/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables
+.env
